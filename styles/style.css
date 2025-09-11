@@ -16,7 +16,7 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#bfaff5;
+	--color-background:#ffffff;
 }
 
 
@@ -29,105 +29,19 @@
 
 /* jouw code */
 
-
- #paginaTwee {
+h1{
+	background-color: #B84E37;
+	color: #ffffff;
 	margin: 0;
-	font-family: Georgia, serif;
-	background-color: #ffffff;
-	color: #000;
-  }
+}
 
-  #Home{
-	margin: 0;
-	font-family: Georgia, serif;
-	background-color: #e0def0;
-	color: #000;
-  }
+header, nav, button img{
+	max-height: 1em;
+}
 
-  header > p {
-	background: black;
-	color: white;
-	text-align: center;
-	font-size: 14px;
-	padding: 5px;
-	margin: 0;
-  } 
-  
-  nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 10px 10px;
-  }
-  
-  nav button {
-	background: none;
+header, nav, button{
+	background-color: none;
 	border: none;
-	font-size: 20px;
-	cursor: pointer;
-  }
-
-  header{
-	background: white;
-	padding-bottom: 5px;
-  }
-
-  header img {
-	max-height: 70px;
-	display: block;
-	margin: 0 auto;
 }
-  
-  form {
-	margin: 10px 15px;
-  }
-  
-  input[type="search"] {
-	width: 100%;
-	padding: 5px;
-	font-size: 16px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-  }
-
-  /* https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
-  ul li {
-	display: inline;
-	font-size: 10px;
-  }
-  
-  ul li+li:before {
-	color: black;
-	content: "/\00a0";
-  } 
-
-  #breadcrumbs {
-	background-color: rgb(250, 250, 233);
-	margin: 0 auto;
-  }
-  section img {
-	max-width: 350px;
-	display: block;
-	margin: 0 auto;
-}
-
-#assortiment {
-	display: block;
-	margin-left: 20px;
-	margin-bottom: 10px;
-	background: black;
-	color: white;
-	font-size: 20px;
-	min-width: 300px;
-}
-h1 {
-	margin-left: 20px;
-	font-size: 40px;
-}
-
-section{
-	margin-left: 20px;
-}
-
 
  
