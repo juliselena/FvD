@@ -12,13 +12,13 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body id="Home">
+<body>
 	<script defer src="scripts/script.js"></script>
 	<header>
 		<h1>Music Delivered To You</h1>
 		<nav>
 			<button>☰</button>
-			<img src="images/DEF_logo_platenzaak_nl__A72608_390x.png" alt="logo">
+			<button><img src="images/DEF_logo_platenzaak_nl__A72608_390x.png" alt="logo"></button>
 			<button><img src="images/heart.png" alt="favorieten"></button>
 			<button><img src="images/shopping-basket.png" alt="winkelmandje"></button>
 		</nav>
@@ -27,7 +27,7 @@
 		</form>
 	</header>
 
-	<main>
+	<main id="homePagina">
 		<div>
 			<img src="images/hvv_mobile_banner_460x@2x.jpg" alt="Herman van veen pre-order">
 		</div>
@@ -68,18 +68,19 @@
 			<button>arrow</button>
 			<button>arrow</button>
 			<h2>Populaire artiesten</h2>
-			<a href="https://www.platenzaak.nl/collections/nieuw">
-				<p>Alles bekijken</p>
-				<article>
-					<a href="https://www.platenzaak.nl/collections/taylor-swift"><img src="images/Taylor_swift_persfoto.jpeg" alt=""></a>
-					<h3>Taylor Swift</h3>
-				</article>
-				
-				<article>
-					<a href="https://www.platenzaak.nl/collections/sabrina-carpenter"><img
-							src="images/Featured_artist_image_800x1200_2.jpg" alt="Sabrina carpenter persfoto"></a>
-					<h3>Sabrina Carpenter</h3>
-				</article>
+			<a href="https://www.platenzaak.nl/collections/nieuw"></a>
+			<p>Alles bekijken</p>
+			<article>
+				<a href="https://www.platenzaak.nl/collections/taylor-swift"><img
+						src="images/Taylor_swift_persfoto.jpeg" alt=""></a>
+				<h3>Taylor Swift</h3>
+			</article>
+
+			<article>
+				<a href="https://www.platenzaak.nl/collections/sabrina-carpenter"><img
+						src="images/Featured_artist_image_800x1200_2.jpg" alt="Sabrina carpenter persfoto"></a>
+				<h3>Sabrina Carpenter</h3>
+			</article>
 		</section>
 
 		<section>
@@ -125,21 +126,21 @@
 		<section>
 
 			<h2>Shop per format</h2>
-			<a href="https://www.platenzaak.nl/pages/artiesten">
-				<p>Alles bekijken</p>
-				<button>arrow</button>
-				<button>arrow</button>
-				<article>
-					<a href="https://www.platenzaak.nl/collections/vinyl"><img
-							src="images/24_-_Exclusive_Vinyls_Homepage.jpg" alt="Vinyl foto"></a>
-					<h3>Vinyl</h3>
-				</article>
+			<a href="https://www.platenzaak.nl/pages/artiesten"> </a>
+			<p>Alles bekijken</p>
+			<button>arrow</button>
+			<button>arrow</button>
+			<article>
+				<a href="https://www.platenzaak.nl/collections/vinyl"><img
+						src="images/24_-_Exclusive_Vinyls_Homepage.jpg" alt="Vinyl foto"></a>
+				<h3>Vinyl</h3>
+			</article>
 
-				<article>
-					<a href="https://www.platenzaak.nl/collections/cd"><img src="images/24_-_CDs_Homepage.jpg"
-							alt="CD's"></a>
-					<h3>CD's</h3>
-				</article>
+			<article>
+				<a href="https://www.platenzaak.nl/collections/cd"><img src="images/24_-_CDs_Homepage.jpg"
+						alt="CD's"></a>
+				<h3>CD's</h3>
+			</article>
 		</section>
 
 		<section>
@@ -160,7 +161,7 @@
 
 			<article>
 				<a href="https://www.platenzaak.nl/collections/andre-hazes"><img src="images/Andre_hazes.jpeg"
-						alt="Sabrina carpenter persfoto"></a>
+						alt="Andre hazes persfoto"></a>
 				<h3>André Hazes</h3>
 			</article>
 		</section>
@@ -235,13 +236,13 @@
 			</article>
 		</section>
 
-		<section>
+		<div>
 			<article>
 				<img src="images/express-delivery-red_80x@2x.png" alt="busje afbeelding">
 				<h2>Snelle levering</h2>
 				<p>Op werkdagen voor 15 uur besteld, dezelfde dag verzonden</p>
 			</article>
-		</section>
+		</div>
 
 		<section>
 			<h2>Alles over vinyl</h2>
@@ -259,10 +260,21 @@
 
 		<button>Terug naar boven</button>
 		<input type="email">
-		<a href=""><img src="" alt=""></a>
-		<a href=""><img src="" alt=""></a>
-		<a href=""><img src="" alt=""></a>
-		<a href=""><img src="" alt=""></a>
+
+		<nav>
+			<ul>
+				<li><a href="https://www.facebook.com/platenzaak.nl"><img src="images/facebookIcon.png"
+							alt="facebook link"></a></li>
+				<li><a href="youtube.com/@platenzaak_nl?themeRefresh=1"><img src="images/youtubeIcon.png" alt=""></a>
+				</li>
+				<li><a href="https://www.instagram.com/platenzaak.nl/"><img src="images/instagramIcon.png" alt=""></a>
+				</li>
+				<li><a href="https://www.tiktok.com/@platenzaak.nl"><img src="images/tiktokIcon.png" alt=""></a></li>
+			</ul>
+		</nav>
+
+
+
 
 		<section>
 			<h5>Contact</h5>
@@ -298,16 +310,13 @@
 			</ul>
 		</nav>
 		<img src="images/Vaantje-PP--Platenzaak.nl.png" alt="publieksprijs diy & hobby">
+		<!-- // unordered list -->
+		<ul>
+			<li><img src="images/applePay.png" alt=""></li>
+			<li><img src="images/banContact.png" alt=""></li>
 
-		<section>
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
-		</section>
+		</ul>
+
 
 		<p>Copyright &#169; 2025 Platenzaak.nl</p>
 	</footer>

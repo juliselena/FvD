@@ -29,19 +29,90 @@
 
 /* jouw code */
 
-h1{
-	background-color: #B84E37;
-	color: #ffffff;
+@font-face {
+	font-family: Questrial, sans-serif;
+	src: url(questrial_n4.e86c53e77682db9bf4b0ee2dd71f214dc16adda4.woff);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+	font-family: "Questrial", sans-serif;
+	font-size: 15px;
+}
+
+
+header{
+	width: 100%;
 	margin: 0;
 }
 
-header, nav, button img{
-	max-height: 1em;
+header h1 {
+	background: #a72608;
+	color: #fff;
+	text-align: center;
+	font-size: 1rem;
+	padding: 0.4rem;
+	margin: 0;
+  }
+
+
+/* Selecteren van buttons */
+header > nav button:first-child {
+    display: flex;
+    position: relative;
+	background: none;
+	border: none;
+	height: 23px;
+	width: 23px;
 }
 
-header, nav, button{
-	background-color: none;
+header > nav button:nth-child(2) img {
+    max-height: 25px;   
+    display: flex;    
+    width: auto;
 	border: none;
 }
+
+header > nav button:nth-child(3) {
+    display: flex;
+    position: relative;
+	background: none;
+	border: none;
+	height: 23px;
+	width: 23px;
+}
+
+header > nav button:nth-child(4) {
+    display: flex;
+    position: relative;
+	background: none;
+	border: none;
+	height: 23px;
+	width: 23px;
+}
+
+header > nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+
+header form {
+    display: flex;
+	justify-content: center;
+	max-height: 40px;
+	margin: 10px;
+}
+
+header form input {
+    padding: 5px 10px;
+    font-size: 1rem;
+	width: 90%;
+}
+
+
+
+
 
  
