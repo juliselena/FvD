@@ -130,18 +130,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | vragen over mijn afbeelding die niet mee werkt  | en dit             | en ik dit    | en dan ik dat    |
+  | | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Voor knoppen die je naar een andere pagina verwijzen gebruik je een anchor (a) element ipv button
+  - Een input element heeft een label nodig voor de toegankelijkheid, check onderstaande bron met voorbeeld. Er is ook een hidden label trucje wat je kunt gebruiken als er niet perse tekst bij hoeft.
+  - Gebruik custom properties, dit is een van de surface plain dingen waarvan je er 5 moet hebben.
+- Gebruik in je CSS consisstent een soort unit(px of em of % bvb)
+ 
 
 </details>
 
