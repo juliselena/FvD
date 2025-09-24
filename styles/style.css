@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -15,8 +17,8 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#ffffff;
+	--color-text: #111;
+	--color-background: #ffffff;
 }
 
 
@@ -31,18 +33,19 @@
 
 @font-face {
 	font-family: Questrial, sans-serif;
-	src: url(questrial_n4.e86c53e77682db9bf4b0ee2dd71f214dc16adda4.woff);
-    font-weight: 400;
-    font-style: normal;
-  }
+	src: url(questrial_n4.e86c53e77682db9bf4b0ee2dd71f214dc16adda4.woff) format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
 
-body{
+body {
 	font-family: "Questrial", sans-serif;
-	font-size: 15px;
+	font-size: 1em;
+	margin: 0;
 }
 
 
-header{
+header {
 	width: 100%;
 	margin: 0;
 }
@@ -51,68 +54,98 @@ header h1 {
 	background: #a72608;
 	color: #fff;
 	text-align: center;
-	font-size: 1rem;
-	padding: 0.4rem;
+	font-size: 1em;
+	padding: .5em 0;
 	margin: 0;
-  }
+	font-weight: lighter;
+}
 
 
 /* Selecteren van buttons */
-header > nav button:first-child {
-    display: flex;
-    position: relative;
+header>nav button:first-child {
+	display: flex;
+	justify-content: start;
+	background: none;
+	border: none;
+	height: 23px;
+	padding: 0;
+	margin: 0;
+}
+
+header>nav button:nth-child(2) > a {
+	height: 20px;
+	display: flex;
+	border: none;
+}
+
+header>nav button:nth-child(3) {
+	display: flex;
+	position: relative;
 	background: none;
 	border: none;
 	height: 23px;
 	width: 23px;
 }
 
-header > nav button:nth-child(2) img {
-    max-height: 25px;   
-    display: flex;    
-    width: auto;
-	border: none;
-}
-
-header > nav button:nth-child(3) {
-    display: flex;
-    position: relative;
+header>nav button:nth-child(4) {
+	display: flex;
+	position: relative;
 	background: none;
 	border: none;
 	height: 23px;
 	width: 23px;
 }
 
-header > nav button:nth-child(4) {
-    display: flex;
-    position: relative;
-	background: none;
-	border: none;
-	height: 23px;
-	width: 23px;
-}
-
-header > nav{
+header>nav {
 	display: flex;
 	justify-content: space-between;
 	margin: 10px;
 }
 
 header form {
-    display: flex;
+	display: flex;
 	justify-content: center;
 	max-height: 40px;
 	margin: 10px;
 }
 
 header form input {
-    padding: 5px 10px;
-    font-size: 1rem;
+	padding: 5px 10px;
+	font-size: 1rem;
 	width: 90%;
 }
 
+/* VANAF HIER BEGINT DE MAIN VAN DE HOMEPAGINA	  */
 
+#homePagina>div:first-child>img {
+	width: 100%;
+}
 
+#homePagina>section:nth-of-type(1) {
+	margin: 20px;
+}
 
+#homePagina>section:nth-of-type(1)>h2:nth-child(1) {
+	font-size: 1em;
+}
 
- 
+#homePagina>section:nth-of-type(1)>a:nth-child(2) {
+	color: #a72608;
+	font-size: 1em;
+}
+
+#homePagina>section:nth-of-type(1)>button:nth-child(3) {
+	font-size: 1em;
+	border: #d1d0d0;
+	border-radius: 10px;
+	background-color: none;
+}
+
+#homePagina>section:nth-of-type(1)>button:nth-child(4) {
+	font-size: 1em;
+}
+
+/* eerste section */
+#homePagina>section:nth-of-type(1)>article{
+	border: #d1d0d0;
+}
