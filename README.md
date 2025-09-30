@@ -231,4 +231,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
   2. /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
   3. //https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+  4. //https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+  5. 
 </details>
