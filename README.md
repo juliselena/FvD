@@ -157,7 +157,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  Screenreader test:
+  Alle alt teksten worden goed benoemd. De banner word benoemd als banner. En daarna de items erin. Bij de header benoemt die de favorieten en het winkelmandje dubbel. Dus daar zou ik naar moeten kijken. Er word goed benoemd welke elementen een knop is. Bij sommige onderdelen ben ik de alt text vergeten dus daar moet ik dat nog toevoegen. Deze noemt die als ongelabelde afbeelding wel word er gezegd dat je het context menu kan openen voor meer informatie. In de footer moet ik de social media alt text verbeteren, hij leest alleen platenzaak.nl op maar niet de soort social media.
 </details>
 
 
@@ -231,8 +232,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
+  2. /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+  3. 
 
 </details>
