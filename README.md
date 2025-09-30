@@ -75,13 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/Breakdown schets FED - product .jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
-
-
-
 
 
 ## Voortgang 1 (week 2)
@@ -171,8 +165,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik liep tegen het vormgeven van de sections aan, de tekst versprong de hele tijd en het stond net niet hoe ik wou.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -186,7 +179,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
+  Ik ben niet bij deze feedbacksessie geweest
   - punt 1
   - punt 2
   - nog een punt
@@ -208,13 +201,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd hoe ik caroussels moet maken, dit heb ik ook het meeste moeten toepassen. Daarnaast heb ik ook geleerd om search bars te maken en om < details >  toe te passen. En ook met de surface plane heb ik geleerd hoe ik dark mode toepas, de tekst groter maak en hoe ik onderdelen vergoot wanneer je hovert.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik wou heel graag mijn hamburger menu nog uitwerken maar dit is mij niet gelukt. Ik was bezig met een UL en met Javascript maar er gebeurde niks. Daarnaast had ik ook veel moeite met de bolletjes en pijltjes toevoegen aan de carousels. Ik had de tutorial gevolgd van flexbox oefening 4 maar de code  scroll-marker-group: after; gaf aan dat die niet bestond dus daar liep ik vast, ik heb het wel op een andere manier bij mijn eerste en tweede carousel toegepast. maar dat was meer met javascript en ik wist ook niet hoe ik dat op meerdere carrousels kon aanpassen.
+  Het was ook niet gelukt om de product foto viewer te doen zie hieronder de afbeelding, eigenlijk om dezelfde reden, de code bestaat niet. Wel had ik die exctentie aangevinkt in chrome maar dat heeft niks veranderd.
+  <img src="readme-images/Scherm­afbeelding 2025-09-29 om 18.07.52.png" width="375px" alt="top">
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -234,6 +230,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
   2. /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
-  3. 
-
+  3. //https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
 </details>
