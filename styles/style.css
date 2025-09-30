@@ -178,7 +178,7 @@ header>button:last-of-type{
 	border: none;
 }
 header>button#theme-toggle > img,
-header>button:last-of-type> img{
+header>button:last-of-type>img{
 	height: 2rem;
 }
 
