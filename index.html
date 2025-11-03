@@ -11,57 +11,93 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
+
 <body>
 	<script defer src="scripts/script.js"></script>
 	<header>
 		<h1>Music Delivered To You</h1>
+
 		<nav>
-			<button><img src="images/icons8-hamburger-menu-50.png" alt="menu"></button>
-			<a href="https://www.platenzaak.nl/"><img src="images/DEF_logo_platenzaak_nl__A72608_390x.png"
-					alt="logo, ga terug naar home"></a>
+			<button id="menu-open" aria-hidden="true">
+				<img src="images/icons8-hamburger-menu-50.png" alt="menu">
+			</button>
+
+			<a href="https://www.platenzaak.nl/">
+				<img src="images/DEF_logo_platenzaak_nl__A72608_390x.png" alt="logo, ga terug naar home">
+			</a>
+
+			<div id="menu">
+				<button id="menu-close" aria-hidden="true">
+					<img src="images/icons8-cross-50.png" alt="kruis">
+				</button>
+				<h2>Menu</h2>
+				<ul>
+					<li><a href="#">Nieuw</a></li>
+					<li><a href="#">Exclusives</a></li>
+					<li><a href="#">Muziek</a></li>
+					<li><a href="#">Genres</a></li>
+					<li><a href="#">Campagnes</a></li>
+					<li><a href="#">Merch</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Account</a></li>
+				</ul>
+			</div>
+
 			<button><img src="images/heart.png" alt="favorieten"></button>
 			<button><img src="images/shopping-basket.png" alt="winkelmandje"></button>
 		</nav>
+
 		<form>
 			<label>
 				<span>zoekopdracht</span>
 				<input type="search" placeholder="Zoeken..." name="zoeken">
 			</label>
-			<button type="submit"><img src="images/icons8-search-50.png" alt=""></button>
+			<button type="submit"><img src="images/icons8-search-50.png" alt="Zoek knop"></button>
 		</form>
+
 		<button id="theme-toggle"><img src="images/icons8-sun-50.png" alt="licht/donker"></button>
 		<button><img src="images/icons8-plus-50.png" alt="plus lettertype"></button>
-
 	</header>
 
 	<main id="homePagina">
 		<ul>
-			<li><img src="images/hvv_mobile_banner_460x@2x.jpg" alt="Herman van veen pre-order"> </li>
-			<li><img src="images/MB_TLDP_460x@2x.jpg" alt="Last dinner party pre-order"></li>
-			<li><img src="images/Mobile_Banner_bb91ec04-f475-4c32-82bc-40346c4304ab_460x@2x.jpg"
-					alt="ariana grande pre-order"></li>
-			<li><img src="images/Mobile_Banner_f0ef7b40-4651-4112-b6ca-922a9a3e008b_460x@2x.jpg"
-					alt="Lola Young pre-order"></li>
-			<li><img src="images/The_Beatles_mobile_460x@2x.jpg" alt="the beatles pre-order"></li>
-			<li><img src="images/taylor_swift_mobile_460x@2x.jpg" alt="Taylor swift pre-order"></li>
-			<li><img src="images/kensington_mobile_460x@2x.jpg" alt="kensington pre-order"></li>
+			<li data-label=""><img src="images/hvv_mobile_banner_460x@2x.jpg"
+					alt="Herman van veen plus plaat van Herman, hij zit op een stoel en voor hem is een rode gitaar koffer">
+			</li>
+			<li data-label=""><img src="images/MB_TLDP_460x@2x.jpg"
+					alt="Last dinner party from the pyre, ontvang een pre-sale code, pre-order, ze zitten op een grasveld">
+			</li>
+			<li data-label=""><img src="images/Mobile_Banner_bb91ec04-f475-4c32-82bc-40346c4304ab_460x@2x.jpg"
+					alt="Ariana Grande eternal sunshine 7inch singles, Ariana zit in een grote witte jurk en ze kijkt omhoog terwijl ze naar boven vliegt">
+			</li>
+			<li data-label=""><img src="images/Mobile_Banner_f0ef7b40-4651-4112-b6ca-922a9a3e008b_460x@2x.jpg"
+					alt="Lola Young i'm only f*cking myself, ontvang een pre-sale code, op de afbeelding staat een roze opblaas ding ingezoomd op het opblaas tuitje">
+			</li>
+			<li data-label=""><img src="images/The_Beatles_mobile_460x@2x.jpg"
+					alt="the beatles anthology collection 2025 edition, op de afbeelding staat een stoep met een muur vol beatles posters">
+			</li>
+			<li data-label=""><img src="images/taylor_swift_mobile_460x@2x.jpg"
+					alt="Taylor Swift the life of a showgirl, Taylor lift in een soort blauw bad en ze heeft een diamanten bikini aan">
+			</li>
+			<li data-label=""><img src="images/kensington_mobile_460x@2x.jpg"
+					alt="Kensington first rodeo, op de foto staat de achterkant van een auto er ligt iemand in de achterbak">
+			</li>
 		</ul>
 
 		<div></div>
 
-		<section>
+
+		<section class="section1">
 			<h2>Nieuw op Platenzaak.nl</h2>
 			<a href="product.html">
 				<p>Alles bekijken</p>
 			</a>
 
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
-
 			<div>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/AG_supernatural_7inchmock_180x@2x.png" alt="Ariana grande supernatural LP">
+					<img src="images/AG_supernatural_7inchmock_180x@2x.png"
+						alt="Ariana Grande eternal sunshine 7inch singles, Ariana zit in een grote witte jurk en ze kijkt omhoog terwijl ze naar boven vliegt">
 					<h3>Ariana grande</h3>
 					<p>supernatural 7"</p>
 					<h4>€ 14<sup>99</sup></h4>
@@ -70,7 +106,8 @@
 
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/ET_CaptainF.jpeg" alt="Elthon John LP">
+					<img src="images/ET_CaptainF.jpeg"
+						alt="Elthon John LP, de hoes heeft een getekende stijl van Elthon John die op een piano zit">
 					<h3>Elthon John</h3>
 					<p>Captain Fantastic and the Brown Dirt Cowboy (50th anniversary Edition Tri-color 2LP)</p>
 					<h4>€ 44<sup>99</sup></h4>
@@ -79,7 +116,8 @@
 
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/andrewhill_180x@2x.jpeg" alt="Andrew Hill">
+					<img src="images/andrewhill_180x@2x.jpeg"
+						alt="Andrew Hill LP, de hoes is een foto van een man die tegen een muur staat in het donker">
 					<h3>Andrew Hill</h3>
 					<p>Judgement LP</p>
 					<h4>€ 29<sup>99</sup></h4>
@@ -88,7 +126,8 @@
 
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/chessmockup_180x@2x.jpeg" alt="Elthon John LP">
+					<img src="images/chessmockup_180x@2x.jpeg"
+						alt="The Chess, records christmas album op de hoes staat een afbeelding van de piek van een kertboom, de hoes is blauw en op de piek staat een paard.">
 					<h3>The Chess</h3>
 					<p>The Chess Records Christmas Album (LP) </p>
 					<h4>€ 29<sup>99</sup></h4>
@@ -98,43 +137,47 @@
 
 		</section>
 
-		<div>
-			<a href="https://www.platenzaak.nl/collections/platenzaak-exclusives"><img
-					src="images/Mini_banners_template_6_360x@2x.jpg" alt=""></a>
-			<a href="https://www.platenzaak.nl/collections/vinyl-accessoires"><img
-					src="images/Mini_banners_template_5_360x@2x.jpg" alt=""></a>
+		<div class="minibanner">
+			<a href="https://www.platenzaak.nl/collections/platenzaak-exclusives" data-label=""><img
+					src="images/Mini_banners_template_6_360x@2x.jpg"
+					alt="Store Exclusives, een afbeelding van 3 gitaristen in zwart-wit met een blauw vlak eroverheen"></a>
+			<a href="https://www.platenzaak.nl/collections/vinyl-accessoires" data-label=""><img
+					src="images/Mini_banners_template_5_360x@2x.jpg"
+					alt="Accessoires, een close-up van iemand die een plaat schoon maakt met een doekje"></a>
 		</div>
 
 
-		<section>
+		<section class="section2">
 			<h2>Populaire artiesten</h2>
 			<a href="https://www.platenzaak.nl/collections/artiesten">
 				<p>Alles bekijken</p>
 			</a>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
 			<div>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/taylor-swift"><img
-							src="images/Taylor_swift_persfoto.jpeg" alt=""></a>
+							src="images/Taylor_swift_persfoto.jpeg"
+							alt="Taylor Swift die op haar knieën in het zand zit op een strand, ze draagt een witte top en een jeans. "></a>
 					<h3>Taylor Swift</h3>
 				</article>
 
 				<article>
 					<a href="https://www.platenzaak.nl/collections/sabrina-carpenter"><img
-							src="images/Featured_artist_image_800x1200_2.jpg" alt="Sabrina carpenter persfoto"></a>
+							src="images/Featured_artist_image_800x1200_2.jpg"
+							alt="Sabrina carpenter in de duinen, ze staat met 1 hand in haar zij en ze draagt een witte blouse die ze heeft vasgeknoopt en een korte spijkerbroek."></a>
 					<h3>Sabrina Carpenter</h3>
 				</article>
 
 				<article>
 					<a href="https://www.platenzaak.nl/collections/conan-gray"><img
-							src="images/Featured_artist_image_800x1200_4.jpg" alt="Sabrina carpenter persfoto"></a>
+							src="images/Featured_artist_image_800x1200_4.jpg"
+							alt="Conan Gray in een matrozenpak hij heeft een stalen atribuut vast, hij vliegt en in de achtergrond zie je grijs blauwe wolken"></a>
 					<h3>Conan Gray</h3>
 				</article>
 
 				<article>
 					<a href="https://www.platenzaak.nl/collections/machine-gun-kelly"><img
-							src="images/Featured_artist_image_800x1200_3.jpg" alt="Sabrina carpenter persfoto"></a>
+							src="images/Featured_artist_image_800x1200_3.jpg"
+							alt="Machine Gun Kelly, hij staat voor een witte muur en kijkt rechts naar beneden, hij draagt een blauwe blouse en een jeans. ook heeft die een ketting met een slot eraan."></a>
 					<h3>mgk</h3>
 				</article>
 			</div>
@@ -142,7 +185,7 @@
 
 		<section>
 			<img src="images/Lola-Young_I-m-Only-F-king-Myself-Pink-Black-Splatter-LP-The-blisters-Edition_Pink-Black-Splatter-LP-The-blisters-Edition_s516341_o7138451_a562387_v13316991.34ac2056.png"
-				alt="">
+				alt="Lola Young i am only f*cking myself LP, op de hoes staat Lola met een pop te knuffelen waar haar eigen gezicht op staat.">
 			<h2>Spotlight</h2>
 			<a href="https://www.platenzaak.nl/collections/lola-young">Lola Young</a>
 			<p>I'm Only F**king Myself: The 'Blisters' Edition (Pink & Black Splatter Vinyl LP)</p>
@@ -152,18 +195,16 @@
 				details</a>
 		</section>
 
-		<section>
+		<section class="section1">
 			<h2>Platenzaak.nl Exclusives</h2>
 			<a href="https://www.platenzaak.nl/collections/platenzaak-exclusives">
 				<p>Alles bekijken</p>
 			</a>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
 			<div>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
 					<img src="images/01_mockup_herman_van_veen_plus_deluxe_copy_180x@2x.png"
-						alt="herman van veen deluxe copy">
+						alt="Herman van veen plus plaat van Herman, hij zit op een stoel en voor hem is een rode gitaar koffer">
 					<h3>Herman van Veen</h3>
 					<p>Herman van Veen Plus (limited deluxe coloured recycled LP)</p>
 					<h4>€ 34<sup>99</sup></h4>
@@ -172,7 +213,8 @@
 
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/1lp1_badc3227-797d-4145-80bd-dd9c13171b81_180x@2x.jpeg" alt="">
+					<img src="images/1lp1_badc3227-797d-4145-80bd-dd9c13171b81_180x@2x.jpeg"
+						alt="Elthon John, Captain Fantastic and the Brown Dirt Cowboy. Op de hoes staat Elthon John op het podium met een paars & roze achtergrond met sterren ">
 					<h3>Elthon John</h3>
 					<p>Captain Fantastic and the Brown Dirt Cowboy - Live At Midsummer Music, Wembley Stadium 1975
 						(Store
@@ -183,7 +225,8 @@
 
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/LG180front_180x@2x.jpeg" alt="">
+					<img src="images/LG180front_180x@2x.jpeg"
+						alt="Lady Gaga, op de hoes staat een foto van lady gaga gespiegeld. Ze heeft rode lippenstift op">
 					<h3>Lady Gaga</h3>
 					<p>Mayhem</p>
 					<h4>€ 29<sup>99</sup></h4>
@@ -192,14 +235,11 @@
 			</div>
 		</section>
 
-		<section>
-
+		<section class="section2">
 			<h2>Shop per format</h2>
 			<a href="https://www.platenzaak.nl/pages/artiesten">
 				<p>Alles bekijken</p>
 			</a>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
 			<div>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/vinyl"><img
@@ -248,56 +288,54 @@
 			</form>
 		</section>
 
-		<section>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
+		<section class="section2">
 			<h2>Van Nederlandse bodem</h2>
 			<div>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/Normaal"><img
-							src="images/normaal_featured_image_copy.jpeg" alt="normaal"></a>
+							src="images/normaal_featured_image_copy.jpeg"
+							alt="Normaal in het bos, ze hebben hoeden op en de frontman heeft een gitaar om"></a>
 					<h3>Normaal</h3>
 				</article>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/andre-hazes"><img src="images/Andre_hazes.jpeg"
-							alt="Andre hazes persfoto"></a>
+							alt="Andre hazes zij-profiel foto, hij staat in een donkere ruimte en heeft een hoed op"></a>
 					<h3>André Hazes</h3>
 				</article>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/herman-van-veen"><img
-							src="images/herman_van_veen.jpeg" alt="Herman Van Veen"></a>
+							src="images/herman_van_veen.jpeg" alt="Herman Van Veen portret foto"></a>
 					<h3>Herman Van Veen</h3>
 				</article>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/vengaboys"><img src="images/venga_homepage.jpg"
-							alt="Vengaboys"></a>
+							alt="Vengaboys in een schoolbus met gekleurde vlaggetjes en gekleurde lp platen"></a>
 					<h3>Vengaboys</h3>
 				</article>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/son-mieux"><img src="images/Son_mieux_persfoto.jpeg"
-							alt="Son mieux"></a>
+							alt="Son mieux in een kantoorruimte, ze dragen allemaal een zwart pak"></a>
 					<h3>Son Mieux</h3>
 				</article>
 				<article>
 					<a href="https://www.platenzaak.nl/collections/mart-hoogkamer"><img
 							src="images/Featured_artist_image_800x1200_3645259f-5bbf-409a-9abc-66c9c7f9d123.jpg"
-							alt="Mart Hoogkamer"></a>
+							alt="Mart Hoogkamer portret foto"></a>
 					<h3>Mart Hoogkamer</h3>
 				</article>
 			</div>
 		</section>
 
-		<section>
+		<section class="section1">
 			<h2>Best verkocht</h2>
 			<a href="https://www.platenzaak.nl/collections/best-verkocht">
 				<p>Alles bekijken</p>
 			</a>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
 			<div>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/KensingtonFirstRodeoD2CLP_Polaroid_180x@2x.png" alt="kensington first rodeo">
+					<img src="images/KensingtonFirstRodeoD2CLP_Polaroid_180x@2x.png"
+						alt="Kensington first rodeo, op de foto staat de achterkant van een auto er ligt iemand in de achterbak">
 					<h3>Kensington</h3>
 					<p>First Rodeo (Store Exclusive Signes Dirty Pink LP + Unique Polaroid)</p>
 					<h4>€ 29<sup>99</sup></h4>
@@ -305,7 +343,8 @@
 				</article>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/AG_supernatural_7inchmock_180x@2x.png" alt="Ariana grande supernatural LP">
+					<img src="images/AG_supernatural_7inchmock_180x@2x.png"
+						alt="Ariana Grande eternal sunshine 7inch singles, Ariana zit in een grote witte jurk en ze kijkt omhoog terwijl ze naar boven vliegt">
 					<h3>Ariana grande</h3>
 					<p>supernatural 7"</p>
 					<h4>€ 14<sup>99</sup></h4>
@@ -313,7 +352,8 @@
 				</article>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/florance.png" alt="florance + the machine">
+					<img src="images/florance.png"
+						alt="Florance and the machine album, plaatje links: ligt ze op de grond in een bruine omgeving, plaatje midden: zit ze in een raamkozijn, plaatje rechts: florane geposeerd op een sofa">
 					<h3>Florance + The Machine</h3>
 					<p>Everybody Scream Vinyl: Chamber Version</p>
 					<h4>€ 49<sup>99</sup></h4>
@@ -321,7 +361,8 @@
 				</article>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
-					<img src="images/1lp1_badc3227-797d-4145-80bd-dd9c13171b81_180x@2x.jpeg" alt="">
+					<img src="images/1lp1_badc3227-797d-4145-80bd-dd9c13171b81_180x@2x.jpeg"
+						alt="Elthon John, Captain Fantastic and the Brown Dirt Cowboy. Op de hoes staat Elthon John op het podium met een paars & roze achtergrond met sterren">
 					<h3>Elthon John</h3>
 					<p>Captain Fantastic and the Brown Dirt Cowboy - Live At Midsummer Music, Wembley Stadium 1975
 						(Store
@@ -329,13 +370,10 @@
 					<h4>€ 29<sup>99</sup></h4>
 					<button>PRE-ORDER</button>
 				</article>
-
 			</div>
 		</section>
 
-		<section>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
+		<section class="section2">
 			<h2>Laat je inspireren</h2>
 			<div>
 				<article>
@@ -387,13 +425,11 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="section1">
 			<h2>Merchandise</h2>
 			<a href="https://www.platenzaak.nl/collections/merch">
 				<p>Alles bekijken</p>
 			</a>
-			<button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-			<button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
 			<div>
 				<article>
 					<button><img src="images/heart.png" alt="favorieten"></button>
@@ -440,13 +476,13 @@
 			</article>
 
 			<article>
-				<img src="images/musician-red_80x@2x.png" alt="muzikant illustratie">
+				<img src="images/musician-red_80x@2x.png" alt="muzikant met gitaar illustratie">
 				<h2>Unieke acties</h2>
 				<p>Door onze directe link met de artiest.</p>
 			</article>
 
 			<article>
-				<img src="images/best-seller-red_80x@2x.png" alt="best seller illustratie">
+				<img src="images/best-seller-red_80x@2x.png" alt="best seller lintje met ster illustratie">
 				<h2>Exclusieve Albums</h2>
 				<p>Gelimiteerde en gesigneerde albums, exclusief bij platenzaak</p>
 			</article>
@@ -455,13 +491,13 @@
 		<section>
 			<h2>ALLES OVER VINYL</h2>
 			<a href="https://www.platenzaak.nl/pages/alles-over-vinyl"><img src="images/foto2_360x@2x.jpg"
-					alt="alles over vinyl"></a>
+					alt="afbeelding van een retro muziek zaak"></a>
 		</section>
 
 		<section>
 			<h2>VINYL ACCESSOIRES</h2>
 			<a href="https://www.platenzaak.nl/collections/vinyl-accessoires"><img
-					src="images/vinyl_accessoires_360x@2x.jpeg" alt="vinyl accessoires"></a>
+					src="images/vinyl_accessoires_360x@2x.jpeg" alt="close-up van iemand die een plaat schoonmaakt"></a>
 		</section>
 	</main>
 
@@ -477,12 +513,15 @@
 		<nav>
 			<ul>
 				<li><a href="https://www.facebook.com/platenzaak.nl"><img src="images/facebookIcon.png"
-							alt="facebook link"></a></li>
-				<li><a href="youtube.com/@platenzaak_nl?themeRefresh=1"><img src="images/youtubeIcon.png" alt=""></a>
+							alt="facebook logo"></a></li>
+				<li><a href="youtube.com/@platenzaak_nl?themeRefresh=1"><img src="images/youtubeIcon.png"
+							alt="youtube logo"></a>
 				</li>
-				<li><a href="https://www.instagram.com/platenzaak.nl/"><img src="images/instagramIcon.png" alt=""></a>
+				<li><a href="https://www.instagram.com/platenzaak.nl/"><img src="images/instagramIcon.png"
+							alt="instagram logo"></a>
 				</li>
-				<li><a href="https://www.tiktok.com/@platenzaak.nl"><img src="images/tiktokIcon.png" alt=""></a></li>
+				<li><a href="https://www.tiktok.com/@platenzaak.nl"><img src="images/tiktokIcon.png"
+							alt="tiktok logo"></a></li>
 			</ul>
 		</nav>
 
@@ -533,8 +572,6 @@
 			<li><img src="images/unionPay.png" alt="unionPay"></li>
 			<li><img src="images/Visa.png" alt="Visa"></li>
 		</ul>
-
-
 		<p>Copyright &#169; 2025 Platenzaak.nl</p>
 	</footer>
 </body>

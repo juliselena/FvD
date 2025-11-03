@@ -16,34 +16,62 @@
     <script defer src="scripts/script.js"></script>
     <header>
         <h1>Music Delivered To You</h1>
+
         <nav>
-            <button><img src="images/icons8-hamburger-menu-50.png" alt="menu"></button>
-            <a href="https://www.platenzaak.nl/"><img src="images/DEF_logo_platenzaak_nl__A72608_390x.png"
-                    alt="logo, ga terug naar home"></a>
+            <button id="menu-open" aria-hidden="true">
+                <img src="images/icons8-hamburger-menu-50.png" alt="menu">
+            </button>
+
+            <a href="https://www.platenzaak.nl/">
+                <img src="images/DEF_logo_platenzaak_nl__A72608_390x.png" alt="logo, ga terug naar home">
+            </a>
+
+            <div id="menu">
+                <button id="menu-close" aria-hidden="true">
+                    <img src="images/icons8-cross-50.png" alt="kruis">
+                </button>
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">Nieuw</a></li>
+                    <li><a href="#">Exclusives</a></li>
+                    <li><a href="#">Muziek</a></li>
+                    <li><a href="#">Genres</a></li>
+                    <li><a href="#">Campagnes</a></li>
+                    <li><a href="#">Merch</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>
+
             <button><img src="images/heart.png" alt="favorieten"></button>
             <button><img src="images/shopping-basket.png" alt="winkelmandje"></button>
         </nav>
+
         <form>
             <label>
                 <span>zoekopdracht</span>
                 <input type="search" placeholder="Zoeken..." name="zoeken">
             </label>
-            <button type="submit"><img src="images/icons8-search-50.png" alt=""></button>
+            <button type="submit"><img src="images/icons8-search-50.png" alt="Zoek knop"></button>
         </form>
+
+        <button id="theme-toggle"><img src="images/icons8-sun-50.png" alt="licht/donker"></button>
+        <button><img src="images/icons8-plus-50.png" alt="plus lettertype"></button>
     </header>
+
 
     <main id="productPagina">
         <section>
-            <img src="images/product/s0kk5juf_300x@2x.jpg" alt="unknown pleasures LP">
+            <img src="images/product/s0kk5juf_300x@2x.jpg" alt="unknown pleasures LP, zwarte LP met radiogolven ">
             <h2>Joy Division</h2>
             <article>
                 <h3>unknown pleasures (LP)</h3>
                 <ul>
-                    <li><img src="images/icons8-star-52.png" alt="sterren"></li>
-                    <li><img src="images/icons8-star-52.png" alt="sterren"></li>
-                    <li><img src="images/icons8-star-52.png" alt="sterren"></li>
-                    <li><img src="images/icons8-star-52.png" alt="sterren"></li>
-                    <li><img src="images/icons8-star-52.png" alt="sterren"></li>
+                    <li><img src="images/icons8-star-52.png" alt="Eerste ster"></li>
+                    <li><img src="images/icons8-star-52.png" alt="Tweede ster"></li>
+                    <li><img src="images/icons8-star-52.png" alt="Derde ster"></li>
+                    <li><img src="images/icons8-star-52.png" alt="Vierde ster"></li>
+                    <li><img src="images/icons8-star-52.png" alt="Vijfde ster"></li>
                 </ul>
                 <p>Geen beoordelingen</p>
                 <p>Standard edition | 1 LP <br> release: 25-06-2015</p>
@@ -60,7 +88,7 @@
             <details>
                 <summary>Omschrijving</summary>
                 <p>
-                    <em>Unknown Pleasures</em>is the debut studio album by English rock band Joy Division in 1979. The
+                    <em>Unknown Pleasures</em> is the debut studio album by English rock band Joy Division in 1979. The
                     album was
                     recorded and mixed over three successive weekends at Stockport Strawberry Studios in April 1979 with
                     producer Martin Hannett contributing a number of unconventional recording techniques to the group's
@@ -126,15 +154,16 @@
                 </table>
             </details>
 
-            <button><img src="images/heart.png" alt="">Zet op verlanglijst</button>
+            <button><img src="images/heart.png" alt="Opslaan als favoriet hartje">Zet op verlanglijst</button>
         </section>
 
-        <section>
+        <section class="section1">
             <h2>Misschien vind je dit ook leuk</h2>
             <div>
                 <article>
-                    <button><img src="images/heart.png" alt="favorieten"></button>
-                    <img src="images/tdsnvw6y_180x@2x.jpg" alt="Jimi Hendrix">
+                    <button><img src="images/heart.png" alt="Opslaan als favoriet hartje"></button>
+                    <img src="images/tdsnvw6y_180x@2x.jpg"
+                        alt="Jimi Hendrix album met een cape om, twee andere mannen staan onder hem">
                     <h3>Jimi Hendrix</h3>
                     <p>Are you experienced (LP)</p>
                     <h4>€ 24<sup>99</sup></h4>
@@ -143,15 +172,13 @@
             </div>
         </section>
 
-        <section>
+        <section class="section1">
             <h2>Onze bestsellers</h2>
-            <button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-            <button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
             <div>
                 <article>
-                    <button><img src="images/heart.png" alt="favorieten"></button>
+                    <button><img src="images/heart.png" alt="Opslaan als favoriet hartje"></button>
                     <img src="images/Untitled-4_d58b92b9-9120-45a8-9f99-e86975a240ad_180x@2x.png"
-                        alt="sabrina-carpenter">
+                        alt="Blonde vrouw Sabrina Carpenter die op haar knieen zit en aan haar haar word vastgehouden door een man ">
                     <h3>Sabrina carpenter</h3>
                     <p>Man's Best Friend Standard LP</p>
                     <h4>€ 32<sup>99</sup></h4>
@@ -159,16 +186,18 @@
                 </article>
 
                 <article>
-                    <button><img src="images/heart.png" alt="favorieten"></button>
-                    <img src="images/florance.png" alt="">
+                    <button><img src="images/heart.png" alt="Opslaan als favoriet hartje"></button>
+                    <img src="images/florance.png"
+                        alt="Florance and the machine album, plaatje links: ligt ze op de grond in een bruine omgeving, plaatje midden: zit ze in een raamkozijn, plaatje rechts: florane geposeerd op een sofa">
                     <h3>Florance + The Machine</h3>
                     <p>Everybody Scream Vinyl: Chamber Version</p>
                     <h4>€ 49<sup>99</sup></h4>
                     <button>PRE-ORDER</button>
                 </article>
                 <article>
-                    <button><img src="images/heart.png" alt="favorieten"></button>
-                    <img src="images/queenalbumfront_80x@2x.jpeg" alt="Queen album">
+                    <button><img src="images/heart.png" alt="Opslaan als favoriet hartje"></button>
+                    <img src="images/queenalbumfront_80x@2x.jpeg"
+                        alt="Queen night at the opera album cover, sierlijke letters. Een kleurrijke soort donut vorm met leeuwen, een zwaan en elfjes erin ">
                     <h3>Queen</h3>
                     <p>A Night At The Opera - 50th Anniversary Edition</p>
                     <h4>€ 32<sup>99</sup></h4>
@@ -178,16 +207,14 @@
             </div>
         </section>
 
-        <section>
+        <section class="section1">
             <h2>Winkel met korting</h2>
             <a href="https://www.platenzaak.nl/collections/best-verkocht">
                 <p>Alles bekijken</p>
             </a>
-            <button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-            <button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
             <div>
                 <article>
-                    <button><img src="images/heart.png" alt="favorieten"></button>
+                    <button><img src="images/heart.png" alt="Opslaan als favoriet hartje"></button>
                     <img src="images/Untitled-2_a5694fa5-de68-42d0-957d-9ef8b0b9bd21_180x@2x.png"
                         alt="NAV OMW2 REXDALE">
                     <h3>NAV</h3>
@@ -197,8 +224,9 @@
                 </article>
 
                 <article>
-                    <button><img src="images/heart.png" alt="favorieten"></button>
-                    <img src="images/IZHO-Music-Product-Mock-07-SB7_180x@2x.png" alt="Selena Gomez, benny blanco">
+                    <button><img src="images/heart.png" alt="Opslaan als favoriet hartje"></button>
+                    <img src="images/IZHO-Music-Product-Mock-07-SB7_180x@2x.png"
+                        alt="Selena Gomez en Benny Blanco samen op een bank, Selena Gomez ligt met haar hoofd op de borst van Benny">
                     <h3>Selena Gomez, benny blanco</h3>
                     <p>Sunset Blvd, 7" Vinyl</p>
                     <h4>€ 12<sup>99</sup></h4>
@@ -210,108 +238,117 @@
         <div class="carousel">
             <article>
                 <img src="images/240305_starterpack_mobile_copy_ce9fc840-cb2d-451c-980d-3f5670515e8c_360x@2x.jpg"
-                    alt="Must have records">
+                    alt="Afbeelding van een verzameling van platen, ze staan in een kartonnen doos. De voorste plaat is queen greatest hits">
                 <h2>Onmisbaar in je collectie</h2>
                 <h3>MUST-HAVE RECORDS</h3>
                 <button>BEGIN MET VERZAMELEN</button>
             </article>
             <article>
-                <img src="images/240313_gen_z_mobile_360x@2x.jpg" alt="Gen z foto">
+                <img src="images/240313_gen_z_mobile_360x@2x.jpg"
+                    alt="Afbeelding van vier tieners, waarvan er 3 op de bank zitten, eentje zit op de grond.">
                 <h2>De sterren van de toekomst</h2>
                 <h3>NEXT GENERATION</h3>
                 <button>NAAR DE COLLECTIE</button>
             </article>
             <article>
-                <img src="images/240313_rbsoulfunk_tekstloos_mobile_360x@2x.jpg" alt="R&B platen">
+                <img src="images/240313_rbsoulfunk_tekstloos_mobile_360x@2x.jpg"
+                    alt="Afbeelding van een platenwinkel, bij de soul & funk sectie">
                 <h2>Groove to the rythm</h2>
                 <h3>R&B, Funk & Soul</h3>
                 <button>NAAR DE COLLECTIE</button>
             </article>
             <article>
                 <img src="images/240305_rock_n_roll_mobile_1_1fbe87e1-ae0f-4466-bdf7-094ba36abf11_360x@2x.jpg"
-                    alt="Rock n roll foto">
+                    alt="Afbeelding van een jongen met lang haar die gitaar speelt">
                 <h2>Rock your socks off</h2>
                 <h3>GRANDIOZE ROCK ALBUMS</h3>
                 <button>BEKIJK DE COLLECTIE</button>
             </article>
             <article>
                 <img src="images/product/240305_dance_platen_mobile_copy_c1a75cea-141a-4e94-9916-cdf3746db0e1_360x@2x.jpg"
-                    alt="dance">
+                    alt="Afbeelding van een publiek hun handen in de lucht">
                 <h2>Bouw je eigen feestje</h2>
                 <h3>DANCE PARTY</h3>
                 <button>NAAR DE COLLECTIE</button>
             </article>
             <article>
-                <img src="images/240315_nederlandse_trots_mobile_copy_360x@2x.jpg" alt="Oranje Tulpen foto">
+                <img src="images/240315_nederlandse_trots_mobile_copy_360x@2x.jpg"
+                    alt="Weiland met oranje tulpen, in de verte zijn er bomen">
                 <h2>Van eigen bodem</h2>
                 <h3>Nederlandse Trots</h3>
                 <button>NAAR DE COLLECTIE</button>
             </article>
             <article>
                 <img src="images/240306_sunday_morning_mobile_copy_a23bfb2c-369c-4e3b-a65c-4bb41e3fa202_360x@2x.jpg"
-                    alt="Sunday morning foto">
+                    alt="Afbeelding van iemand die in pyjama op bed zit met een platenspeler koffer">
                 <h2>Even lekker ontspannen</h2>
                 <h3>Sunday Morning</h3>
                 <button>BEKIJK DE COLLECTIE</button>
             </article>
             <article>
                 <img src="images/240313_summervibes_mobile_154e607a-e5c6-476e-8085-d8f76dda606e_360x@2x.jpg"
-                    alt="summervibes foto">
+                    alt="Afbeelding van een jongetje die met een blauwe koptelefoon muziek luistert, hij heeft zijn handen op zijn koptelefoon en zijn ogen dicht">
                 <h2>Haal het zonnetje in huis</h2>
                 <h3>Summervibes</h3>
                 <button>BEKIJK DE COLLECTIE</button>
             </article>
         </div>
 
-        <section>
-            <button><img src="images/pijlLinks.png" alt="pijl naar links"></button>
-            <button><img src="images/pijlRechts.png" alt="pijl naar rechts"></button>
+        <section class="section2">
             <h2>Laat je inspireren</h2>
             <div>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/disney"><img
-                            src="images/24_-_Disney_Homepage_Square.jpg" alt="Disney"></a>
+                            src="images/24_-_Disney_Homepage_Square.jpg"
+                            alt="Platenrek met disney platen in de achtergrond staan planten"></a>
                     <h3>Disney</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
-                            src="images/24_-_Verzamelablums_Homepage_Square.jpg" alt="Verzamelalbums"></a>
+                            src="images/24_-_Verzamelablums_Homepage_Square.jpg"
+                            alt="Platenrek met verzamel platen in de achtergrond staan planten"></a>
                     <h3>Verzamelalbums</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/soundtracks"><img
-                            src="images/24_-_Soundrack_Homepage_Square.jpg" alt="soundtracks"></a>
+                            src="images/24_-_Soundrack_Homepage_Square.jpg"
+                            alt="Platenrek met soundtrack platen in de achtergrond staan planten"></a>
                     <h3>Soundtracks</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
-                            src="images/24_-_Classic_Albums_Homepage.jpg" alt="Classic Albums"></a>
+                            src="images/24_-_Classic_Albums_Homepage.jpg"
+                            alt="Platenrek met klassieke platen in de achtergrond staan planten"></a>
                     <h3>Classic Albums</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
-                            src="images/24_-_Nederlands_Homepage_Square.jpg" alt="Nederlandse Trots"></a>
+                            src="images/24_-_Nederlands_Homepage_Square.jpg"
+                            alt="Platenrek met Nederlandse platen in de achtergrond staan planten"></a>
                     <h3>Nederlandse trots</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
-                            src="images/240305_platenzaak_favorites_tekstloos_copy.jpg" alt="Platenzaak Favorites"></a>
+                            src="images/240305_platenzaak_favorites_tekstloos_copy.jpg"
+                            alt="Close up foto van meerdere platen "></a>
                     <h3>Platenzaak's favorites</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
-                            src="images/EXCLUSIVES_-_geen_tekst.jpg" alt="Platenzaak Exclusives"></a>
+                            src="images/EXCLUSIVES_-_geen_tekst.jpg"
+                            alt="Afbeelding van een vrouw die een blauw doorzichtige plaat voor haar gezicht houdt"></a>
                     <h3>Platenzaak.nl Exclusives</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
                             src="images/240305_rock_n_roll_tekstloos_1_copy_88c21e97-1eb1-4af9-9e08-15e8fd0a9428.jpg"
-                            alt="Rock 'n Roll"></a>
+                            alt="Afbeelding van een jongen met lang haar die gitaar speelt"></a>
                     <h3>Rock 'n Roll</h3>
                 </article>
                 <article>
                     <a href="https://www.platenzaak.nl/collections/verzamelalbums"><img
-                            src="images/240313_gen_z_tekstloos.jpg" alt="Next Generation"></a>
+                            src="images/240313_gen_z_tekstloos.jpg"
+                            alt="Afbeelding van vier tieners, waarvan er 3 op de bank zitten, eentje zit op de grond"></a>
                     <h3>Next Generation</h3>
                 </article>
             </div>
@@ -330,12 +367,15 @@
         <nav>
             <ul>
                 <li><a href="https://www.facebook.com/platenzaak.nl"><img src="images/facebookIcon.png"
-                            alt="facebook link"></a></li>
-                <li><a href="youtube.com/@platenzaak_nl?themeRefresh=1"><img src="images/youtubeIcon.png" alt=""></a>
+                            alt="facebook logo"></a></li>
+                <li><a href="youtube.com/@platenzaak_nl?themeRefresh=1"><img src="images/youtubeIcon.png"
+                            alt="youtube logo"></a>
                 </li>
-                <li><a href="https://www.instagram.com/platenzaak.nl/"><img src="images/instagramIcon.png" alt=""></a>
+                <li><a href="https://www.instagram.com/platenzaak.nl/"><img src="images/instagramIcon.png"
+                            alt="instagram logo"></a>
                 </li>
-                <li><a href="https://www.tiktok.com/@platenzaak.nl"><img src="images/tiktokIcon.png" alt=""></a></li>
+                <li><a href="https://www.tiktok.com/@platenzaak.nl"><img src="images/tiktokIcon.png"
+                            alt="tiktok logo"></a></li>
             </ul>
         </nav>
 

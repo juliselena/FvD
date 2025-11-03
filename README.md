@@ -36,17 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp](https://www.platenzaak.nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina van Dille & kamille nagemaakt.
-  <img src="images/dilleKamille.png" width="375px" alt="Voorbeeld van Dille & kamille">
-  <img src="images/dilleKamilleV1.png" width="375px" alt="Mijn variant van Dille & kamille">
+  Homepagina platenzaak.nl
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 12.17.04.png" width="375px" alt="homepagina">
+
   #### Screenshot(s) van de tweede pagina (small screen):
- Log in pagina Dille & Kamille 
-  <img src="images/dillekamilleP2.png" width="375px" alt="Log in pagina voorbeeld van Dille & kamille">
-  <img src="images/dilleKamilleV2.png" width="375px" alt="Mijn variant van Dille & kamille log in pagina">
- 
+product pagina platenzaak.nl
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 12.16.56.png" width="375px" alt="product pagina">
 </details>
 
 
@@ -197,26 +195,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb geleerd hoe ik caroussels moet maken, dit heb ik ook het meeste moeten toepassen. Daarnaast heb ik ook geleerd om search bars te maken en om < details >  toe te passen. En ook met de surface plane heb ik geleerd hoe ik dark mode toepas, de tekst groter maak en hoe ik onderdelen vergoot wanneer je hovert.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
+ 
   ### Dit was lastig/Is niet gelukt:
   Ik wou heel graag mijn hamburger menu nog uitwerken maar dit is mij niet gelukt. Ik was bezig met een UL en met Javascript maar er gebeurde niks. Daarnaast had ik ook veel moeite met de bolletjes en pijltjes toevoegen aan de carousels. Ik had de tutorial gevolgd van flexbox oefening 4 maar de code  scroll-marker-group: after; gaf aan dat die niet bestond dus daar liep ik vast, ik heb het wel op een andere manier bij mijn eerste en tweede carousel toegepast. maar dat was meer met javascript en ik wist ook niet hoe ik dat op meerdere carrousels kon aanpassen.
   Het was ook niet gelukt om de product foto viewer te doen zie hieronder de afbeelding, eigenlijk om dezelfde reden, de code bestaat niet. Wel had ik die exctentie aangevinkt in chrome maar dat heeft niks veranderd.
   <img src="readme-images/Scherm­afbeelding 2025-09-29 om 18.07.52.png" width="375px" alt="top">
 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
-
-
 
 
 ## Bronnenlijst
@@ -232,5 +224,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
   3. //https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
   4. //https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
-  5. 
+  5. developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+  6. https://www.w3schools.com/css/css3_variables_javascript.asp
+  7. https://developer.chrome.com/blog/carousels-with-css?hl=nl
+  8. voor de hamburger opdracht heb ik de theorie toegepast
+  9. voor de carousel heb ik ook de theorie toegepast (bolletjes en pijltjes) 
+
 </details>
