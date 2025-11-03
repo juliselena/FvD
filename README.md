@@ -58,6 +58,14 @@ product pagina platenzaak.nl
   Lijst met je bevindingen die in de test naar voren kwamen:
   Test 1 screenreader platenzaak.nl:
   Hij benoemd hoe veel procent de pagina is geladen. Zonder dat ik wat doe wordt de pagina helemaal voorgelezen. Sommige alt teksten zijn heel uitgebreid en lezen de link voor, terwijl dat niet nodig is. Engelse tekst word door een andere stem gesproken. Hij spreekt de hele carousel uit in plaats van de gene die je als eerste ziet. De afbeeldingen van de producten bevatten dezelfde alt tekst als de beschrijving.
+
+  Hieronder de WCAG formulier
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 13.10.12.png" width="375px">
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 13.10.35.png" width="375px">
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 13.10.42.png" width="375px">
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 13.10.49.png" width="375px">
+  <img src="readme-images/Scherm­afbeelding 2025-11-03 om 13.10.55.png" width="375px">
+
 </details>
 
 
